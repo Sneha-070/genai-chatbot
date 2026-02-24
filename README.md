@@ -9,6 +9,7 @@ This project is an AI-driven mental health support chatbot that allows context-a
 It includes secure authentication and session-based memory, ensuring users can interact seamlessly without permanent data storage.
 
 ✨ Features
+
 🧠 Multi-Turn Conversation
 
 Context-aware AI responses
@@ -17,7 +18,7 @@ Maintains session-based chat history
 
 Real-time interaction
 
-📝 Chat Summary (Optional)
+📝 Chat Summary
 
 AI-generated summary of conversation
 
