@@ -1,0 +1,104 @@
+2026-02-23 14:03:51,378 - INFO - Calling Gemini API
+2026-02-23 14:03:51,742 - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 14:04:06,083 - INFO - Calling Gemini API
+2026-02-23 14:04:06,166 - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 14:05:59,314 - INFO - Calling Gemini API
+2026-02-23 14:05:59,428 - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 14:10:11,073 - INFO - Calling Gemini API
+2026-02-23 14:10:14,361 - INFO - Gemini API call successful
+2026-02-23 14:10:32,566 - INFO - Calling Gemini API
+2026-02-23 14:10:37,570 - INFO - Gemini API call successful
+2026-02-23 14:12:48,812 - INFO - Calling Gemini API
+2026-02-23 14:12:50,785 - INFO - Gemini API call successful
+2026-02-23 14:13:12,107 - INFO - Calling Gemini API
+2026-02-23 14:13:16,121 - INFO - Gemini API call successful
+2026-02-23 14:13:27,924 - INFO - Calling Gemini API
+2026-02-23 14:13:33,666 - INFO - Gemini API call successful
+2026-02-23 14:13:57,397 - INFO - Calling Gemini API
+2026-02-23 14:14:02,440 - INFO - Gemini API call successful
+2026-02-23 14:14:15,738 - INFO - Calling Gemini API
+2026-02-23 14:14:19,613 - INFO - Gemini API call successful
+2026-02-23 14:14:29,319 - INFO - Calling Gemini API
+2026-02-23 14:14:34,721 - INFO - Gemini API call successful
+2026-02-23 14:14:59,508 - INFO - Calling Gemini API
+2026-02-23 14:15:03,635 - INFO - Gemini API call successful
+2026-02-23 14:15:23,402 - INFO - Calling Gemini API
+2026-02-23 14:15:25,977 - INFO - Gemini API call successful
+2026-02-23 14:16:08,977 - INFO - Calling Gemini API
+2026-02-23 14:16:16,478 - INFO - Gemini API call successful
+2026-02-23 14:16:26,164 - INFO - Calling Gemini API
+2026-02-23 14:16:29,402 - INFO - Gemini API call successful
+2026-02-23 14:16:56,640 - INFO - Calling Gemini API
+2026-02-23 14:16:59,918 - INFO - Gemini API call successful
+2026-02-23 14:18:10,430 - INFO - Calling Gemini API
+2026-02-23 14:18:16,986 - INFO - Gemini API call successful
+2026-02-23 14:18:25,546 - INFO - Calling Gemini API
+2026-02-23 14:18:28,053 - INFO - Gemini API call successful
+2026-02-23 17:34:40,995 - INFO - Calling Gemini API
+2026-02-23 17:34:45,203 - INFO - Gemini API call successful
+2026-02-23 17:34:56,541 - INFO - Calling Gemini API
+2026-02-23 17:34:59,118 - INFO - Gemini API call successful
+2026-02-23 18:16:46,775 - INFO - Calling Gemini API
+2026-02-23 18:16:49,147 - INFO - Gemini API call successful
+2026-02-23 18:16:59,935 - INFO - Calling Gemini API
+2026-02-23 18:17:02,836 - INFO - Gemini API call successful
+2026-02-23 18:17:18,979 - INFO - Calling Gemini API
+2026-02-23 18:17:22,721 - INFO - Gemini API call successful
+2026-02-23 18:17:36,400 - INFO - Calling Gemini API
+2026-02-23 18:17:39,927 - INFO - Gemini API call successful
+2026-02-23 18:26:18,842 - INFO - Calling Gemini API
+2026-02-23 18:26:19,545 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 30.840550297s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2026-02-23 18:30:12,365 - INFO - Calling Gemini API
+2026-02-23 18:30:12,995 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 37.388785214s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2026-02-23 18:34:07,685 - INFO - Calling Gemini API
+2026-02-23 18:34:07,957 - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 18:36:34,310 - INFO - Calling Gemini API
+2026-02-23 18:36:36,081 - INFO - Gemini API call successful
+2026-02-23 18:38:44,323 - INFO - Calling Gemini API
+2026-02-23 18:38:45,849 - INFO - Gemini API call successful
+2026-02-23 18:38:45,888 - INFO - Generating conversation summary
+2026-02-23 18:38:47,261 - INFO - Summary generated successfully
