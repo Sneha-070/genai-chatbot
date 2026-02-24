@@ -89,20 +89,25 @@ sudo apt install python3-pip python3
 Upload project from local machine
 
 Navigate to project folder
+
 cd mental-health-chatbot
 
 Create virtual environment
+
 python3 -m venv venv
+
 source venv/bin/activate
 
 Install dependencies
 pip install -r requirements.txt
 
 Add Streamlit secrets (API key)
+
 nano .env
 
 
 Run the Streamlit app
+
 nohup streamlit run app.py
 
 Navigate to project folder -cd mental-health-chatbot
@@ -110,5 +115,7 @@ Navigate to project folder -cd mental-health-chatbot
 Create virtual environment -python3 -m venv venv -source venv/bin/activate
 
 Install dependencies -pip install -r requirements.txt
+
 Add Streamlit secrets (API key) -nano .env [Open the terminal and add your API key using the Streamlit secrets configuration. Use the EC2 terminal to securely configure the API key in the secrets.toml file.]
+
 Run the Streamlit app -nohup streamlit run app.py
